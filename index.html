@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  </link>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&family=Roboto&display=swap"
+    rel="stylesheet">
+
+  <title>Memory Game</title>
+</head>
+
+<body>
+
+  <div id="name-display-main">
+    <div id="name-display">MEMORY GAME</div>
+  </div>
+
+  <div id="instruction-display-main">
+    <div id="instruction-display">Pick all pairs of same cards to win!!</div>
+  </div>
+
+  <div class="score-chance-display">
+    <div class="spam1"></div>
+    <h2 id="score-display" class="score-display">Score :<span id="result" id="abcd"></span> </h2>
+    <h2 class="chance-display"> Attempts :<span id="chance"></span></h2>
+    <div class="spam1">/</div>
+  </div>
+
+  <div id="maincontainer">
+    <div id="grid">
+    </div>
+  </div>
+
+
+
+
+  <div class="message-display">
+    <div class="message">Message :<span id="message"></span> </div>
+  </div>
+
+  <button class='start-button' id='start-button'>
+    Click here to START!!
+  </button>
+
+  <div class="type-display-grid">
+    <div class="spam1">/</div>
+    <div class="easy-template">
+      <div class="easy-image-div">
+        <img class="easy-image" src="images/easy1.png">
+
+      </div>
+      <div class="easy-button-div">
+        <button class="type" id="easy">Easy</button>
+      </div>
+
+    </div>
+    <div class="hard-template">
+      <div class="hard-image-div">
+
+        <img class="hard-image" src="images/hard1.png">
+      </div>
+      <div class="hard-button-div">
+        <button class="type" id="hard">Hard</button>
+      </div>
+    </div>
+    <div class="spam1">/</div>
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
